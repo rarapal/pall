@@ -1,0 +1,416 @@
+body{
+    background-color: rgb(225, 248, 251);
+}
+
+.pangkal {
+    opacity: 0;
+}
+
+.header .nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: rgb(53, 202, 219);
+    text-align: center;
+    z-index: 999;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.header .nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.header .nav ul li:hover{
+    background-color: rgb(163, 163, 163);
+    background-size: contain;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font: 14px/30px arial;
+    color: white;
+}
+
+.content h1{
+    font: 25px/40px arial;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+ 
+
+.profile{
+    width: 1060px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .5);
+}
+
+.profile img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 70px;
+    left: 45%;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.profile span{
+    font-family: arial;
+    font-weight: bold;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 52px;
+    left: 468px;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    text-align: center;
+    line-height: 120px;
+    color: rgba(31, 7, 87, 0.75);
+    text-shadow: 1px 1px 2px #ddd;
+    transition: .3s;
+}
+
+.image:hover span{
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+
+.nama,.kelas,
+.en-nama,.en-kelas,
+.arr,.arr2{
+    position: absolute;
+    font: 15px arial;
+    font-weight: bold;
+}
+
+.identitas .nama,
+.identitas .kelas{
+    left: 50%;
+}
+
+.identitas .en-nama,
+.identitas .en-kelas{
+    left: 42%;
+}
+
+.identitas .arr,
+.identitas .arr2{
+    left: 48%;
+}
+
+.nama,
+.en-nama,
+.arr{
+    top: 260px;
+    
+}
+.kelas,
+.en-kelas,
+.arr2{
+    top: 280px;
+}
+
+
+.bio{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .5);
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+
+.soal p,
+.jawaban p{
+    font: 19px arial;
+    position: absolute;
+    margin-top: 50px;
+}
+.soal p{
+    font-weight: bold;
+}
+
+.p1,.p01{
+    top: 40px;
+}
+.p2,.p02{
+    top: 65px;
+}
+.p3,.p03{
+    top: 90px;
+}
+.p4,.p04{
+    top: 115px;
+}
+.p5,.p05{
+    top: 140px;
+}
+.p6,.p06{
+    top: 165px;
+}
+.p7,.p07{
+    top: 190px;
+}
+.p8,.p08{
+    top: 215px;
+}
+.p9,.p09{
+    top: 240px;
+}
+.p10,.p010{
+    top: 265px;
+}
+.p11,.p011{
+    top: 290px;
+}
+
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10,.p11{
+    left: 10%;
+}
+
+.p01,.p02,.p03,.p04,.p05,.p06,.p07,.p08,.p09,.p010,.p011{
+    left: 25%;
+}
+
+
+.skill{
+    
+    width: 1080px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 150px;
+    margin-left: 200px;
+}
+
+
+.skill .html{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .5);
+    width: 240px;
+    height: 500px;
+    transition: 1s;
+    float: left;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.html:hover{
+    padding-left: 100px;
+}
+
+.skill .jane{
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.skill .span1{
+    position: absolute;
+    bottom : 2px;
+    left: 2px;
+    opacity: 0;
+    transition: 1s;
+    transform: scale(0);
+}
+
+.html:hover .span1{
+    opacity: 1;
+    transform: scale(1);
+    left: 18%;
+    bottom: 200px;
+}
+ 
+.skill .css{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .5);
+    width: 240px;
+    height: 500px;
+    transition: 1s;
+    float: left;
+    position: relative;
+}
+.css:hover{
+    padding-left: 100px;
+}
+
+.skill .mita{
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.skill .span2{
+    position: absolute;
+    bottom : 2px;
+    left: 2px;
+    opacity: 0;
+    transition: 1s;
+    transform: scale(0);
+}
+
+.css:hover .span2{
+    opacity: 1;
+    transform: scale(1);
+    left: 20%;
+    bottom: 200px;
+}
+
+
+.skill .js{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .5);
+    width: 240px;
+    height: 500px;
+    transition: 1s;
+    float: left;
+    position: relative;
+}
+.js:hover{
+    padding-left: 100px;
+}
+
+.skill .yuna{
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.skill .span3{
+    position: absolute;
+    bottom : 2px;
+    left: 2px;
+    opacity: 0;
+    transition: 1s;
+    transform: scale(0);
+}
+
+.js:hover .span3{
+    opacity: 1;
+    transform: scale(1);
+    left: 25%;
+    bottom: 200px;
+}
+
+.skill .pspeak{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .5);
+    width: 240px;
+    height: 500px;
+    transition: 1s;
+    float: left;
+    position: relative;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.pspeak:hover{
+    padding-left: 100px;
+}
+
+.skill .miku{
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.skill .span4{
+    position: absolute;
+    bottom : 20px;
+    left: 20px;
+    opacity: 0;
+    transition: 1s;
+    transform: scale(0);
+}
+
+.pspeak:hover .span4{
+    opacity: 1;
+    transform: scale(1);
+    left: 45%;
+    bottom: 200px;
+}
+
+.skill img{
+    width: 200px;
+    height: 200px;
+}
+
+.project{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .5);
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.project h3{
+    margin-top: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item p {
+    margin: 0;
+}
+
