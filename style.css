@@ -1,3 +1,7 @@
+::root{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(225, 248, 251);
 }
